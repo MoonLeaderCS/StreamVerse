@@ -51,5 +51,5 @@
     "react-scripts": "^5.0.1",
     "webpack": "^5.91.0"
   },
-  "proxy": "http://localhost:5000/api/"
+  "proxy": "https://stream-verse-api.vercel.app/api/"
 }
