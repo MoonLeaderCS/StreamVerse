@@ -1,29 +1,3 @@
-// // import dotenv from "dotenv";
-// import { getAnalytics } from "firebase/analytics";
-// import { initializeApp } from "firebase/app";
-// import { getAuth, GoogleAuthProvider } from "firebase/auth";
-
-// // dotenv.config();
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDivShC-mr5pz2e94CMZFgc26vjDoOArKA",
-//   authDomain: "streamverse00.firebaseapp.com",
-//   projectId: "streamverse00",
-//   storageBucket: "streamverse00.appspot.com",
-//   messagingSenderId: "476722426334",
-//   appId: "1:476722426334:web:06cb42ca0794675436ad4f",
-//   measurementId: "G-3WM8J0F5D2",
-// };
-
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// export const analytics = getAnalytics(app);
-// export const auth = getAuth();
-// export const provider = new GoogleAuthProvider();
-
-// export default app;
-
-
-
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
