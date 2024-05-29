@@ -12,8 +12,6 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-
-
 // connect with mongoDB
 const connect = () => {
   mongoose
@@ -36,6 +34,11 @@ app.use(cors(
 ));
 app.use(cookieParser());
 app.use(express.json());
+
+// default API
+app.get("/", (req, res) => {
+	res.json("Hello");
+})
 
 // all API Routing : middlewares
 app.use("/api/auth/", authRoutes);
