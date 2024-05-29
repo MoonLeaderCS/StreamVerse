@@ -27,8 +27,8 @@ const connect = () => {
 // use CORS : middlewares
 app.use(cors(
 	{
-		origin: ["https://StreamVerse.vercel.app"],
-		methods: ["POST", "GET"],
+		origin: ["https://stream-verse-client.vercel.app/"],
+		methods: ["GET", "PUT', "POST", "DELETE"],
 		credentials: true
 	}
 ));
