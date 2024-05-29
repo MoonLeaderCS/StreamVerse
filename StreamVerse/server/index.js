@@ -28,7 +28,7 @@ const connect = () => {
 app.use(cors(
 	{
 		origin: ["https://stream-verse-client.vercel.app/"],
-		methods: ["GET", "PUT', "POST", "DELETE"],
+		methods: ["GET", "PUT", "POST", "DELETE"],
 		credentials: true
 	}
 ));
